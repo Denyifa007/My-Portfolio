@@ -1,6 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/workimg2.png'
-import DenzyImg from '../assets/Screenshot 2023-06-08 223405.png'
+import DenzyImg from '../assets/Denzyimg.png'
 import Denzykollect from '../assets/denzy.png'
 
 
