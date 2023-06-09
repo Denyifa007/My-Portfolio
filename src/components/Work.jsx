@@ -1,6 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/workimg2.png'
-import DenzyImg from '../assets/Ecommerce.png'
+import DenzyImg from '../assets/Screenshot 2023-06-08 223405.png'
 import Denzykollect from '../assets/denzy.png'
 
 
@@ -41,14 +41,14 @@ const Work = () => {
 
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white
-                     tracking-wider'> Django Application
+                     tracking-wider'> Reat js Application
 
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
+                        <a href="https://denzy-movie-app.vercel.app/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/Denyifa007/django-ecommerce.git">
+                        <a href="https://github.com/Denyifa007/Denzy-movie-app">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
