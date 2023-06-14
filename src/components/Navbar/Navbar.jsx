@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin,} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
+import resume from '../Navbar/DENZYTECH.docx'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
@@ -10,7 +11,8 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         <div>
-            <h1 className='text-xl font-bold' style={{color: '#E31B6D', fontFamily:'cursive', fontSize: '3rem'}}>DT</h1>
+            <h1 className='text-5xl ml-2 font-signature' style={{color: '#E31B6D', marginTop:  '1rem'}}>DT</h1>
+            
             
         </div>
             <ul className='hidden md:flex'>
@@ -80,25 +82,25 @@ const Navbar = () => {
           <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '>
               <a className='flex justify-between items-center w-full text-gray-300' 
-              href="/">
+              href="https://www.linkedin.com/" target='-blank'>
                 Linkedin <FaLinkedin size={30}/>
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] '>
               <a className='flex justify-between items-center w-full text-gray-300' 
-              href="https://github.com/Denyifa007">
+              href="https://github.com/Denyifa007" target='-blank'>
                 Github <FaGithub size={30}/>
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] '>
               <a className='flex justify-between items-center w-full text-gray-300' 
-              href="https://gmail.com/denyifasamuel@gmail.com">
+              href="mailto:denyifagmail.com">
                 Email <HiOutlineMail size={30}/>
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] '>
               <a className='flex justify-between items-center w-full text-gray-300' 
-              href="/">
+              href={resume} download>
                 Resume <BsFillPersonLinesFill size={30}/>
               </a>
             </li>
