@@ -2,6 +2,9 @@ import React from 'react'
 import WorkImg from '../assets/workimg2.png'
 import DenzyImg from '../assets/Denzyimg.png'
 import Denzykollect from '../assets/denzy.png'
+import Denzyhotel from '../assets/Denzyhotel.png'
+import Abamufarms from '../assets/Abamufarm.png'
+import Portfolio2 from '../assets/Portfolio2.png'
 
 
 const Work = () => {
@@ -26,10 +29,10 @@ const Work = () => {
 
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="https://denzycrypto.netlify.app/">
+                        <a href="https://denzycrypto.netlify.app/" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/Denyifa007/denzycrypto.git">
+                        <a href="https://github.com/Denyifa007/denzycrypto.git" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -45,10 +48,10 @@ const Work = () => {
 
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="https://denzy-movie-app.vercel.app/">
+                        <a href="https://denzy-movie-app.vercel.app/" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/Denyifa007/Denzy-movie-app">
+                        <a href="https://github.com/Denyifa007/Denzy-movie-app" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -64,10 +67,67 @@ const Work = () => {
 
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="https://denzykolletz.netlify.app/">
+                        <a href="https://denzykolletz.netlify.app/" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/Denyifa007/PS-work.git">
+                        <a href="https://github.com/Denyifa007/PS-work.git" target='_blank'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style={{backgroundImage: `url(${Denzyhotel})`}}
+             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                {/* Hover effect */}
+
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white
+                     tracking-wider'>  React JS Application
+
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="https://denzy-hotel-app.vercel.app/" target='_blank'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="https://github.com/Denyifa007/Denzy-Hotel-app.git" target='_blank'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style={{backgroundImage: `url(${Abamufarms})`}}
+             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                {/* Hover effect */}
+
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white
+                     tracking-wider'>  React JS Application
+
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="https://abamu-farms.vercel.app/" target='_blank'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="https://github.com/Denyifa007/Abamu-farms.git" target='_blank'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style={{backgroundImage: `url(${Portfolio2})`}}
+             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                {/* Hover effect */}
+
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white
+                     tracking-wider'>  React JS Application
+
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a href="https://denzyportfolio2.netlify.app/" target='_blank'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        </a>
+                        <a href="https://github.com/Denyifa007/portfolio2.git" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
