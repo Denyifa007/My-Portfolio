@@ -1,7 +1,7 @@
 import React from 'react'
 import WorkImg from '../assets/workimg2.png'
 import DenzyImg from '../assets/Denzyimg.png'
-import Denzykollect from '../assets/denzy.png'
+import Denzyrealestate from '../assets/denzyrealestate.png'
 import Denzyhotel from '../assets/Denzyhotel.png'
 import Abamufarms from '../assets/Abamufarm.png'
 import Portfolio2 from '../assets/Portfolio2.png'
@@ -57,20 +57,20 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${Denzykollect})`}}
+            <div style={{backgroundImage: `url(${Denzyrealestate})`}}
              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 {/* Hover effect */}
 
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white
-                     tracking-wider'> HTML CSS Application
+                     tracking-wider'> React js Application
 
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="https://denzykolletz.netlify.app/" target='_blank'>
+                        <a href="https://real-estate-project-gilt.vercel.app/" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="https://github.com/Denyifa007/PS-work.git" target='_blank'>
+                        <a href="https://github.com/Denyifa007/Real-estate-project.git" target='_blank'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
