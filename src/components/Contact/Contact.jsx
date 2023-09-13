@@ -6,7 +6,7 @@ import resume from '../Contact/DENZYTECH.180936abe7948783c2cc (1).docx'
 
 const Contact = () => {
   return (
-    <div name='contact' className=' w-full h-screen bg-[#0a192f] flex justify-center items-center pt-10'>
+    <div name='contact' className=' w-full h-screen bg-[#0a192f] flex justify-center items-center pt-10 px-4'>
         <form action="https://getform.io/f/1b77363a-8d02-4180-988e-fbd9411fb9d1" method='POST' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
