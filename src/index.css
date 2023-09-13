@@ -8,6 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+
+
 @layer base {
     body{
         @apply font-[Raleway];
@@ -33,4 +37,11 @@
         hsla(242,74%, 61%, 0.8)
     )!important;
 
+}
+#denzy{
+    line-height: 2.5rem;
+}
+.oyein{
+    font-family: 'Dancing Script', cursive;
+    
 }

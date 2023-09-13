@@ -41,6 +41,11 @@ const Navbar = () => {
                     Contact
                 </Link>
                 </li>
+                <li>
+                <Link to="Resume" smooth={true} duration={500}>
+                    Resume
+                </Link>
+                </li>
             </ul>
         
 
@@ -94,7 +99,7 @@ const Navbar = () => {
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] '>
               <a className='flex justify-between items-center w-full text-gray-300' 
-              href="mailto:denyifagmail.com">
+              href="mailto:denyifsamuela@hotmail.com">
                 Email <HiOutlineMail size={30}/>
               </a>
             </li>
