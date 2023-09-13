@@ -80,6 +80,11 @@ const Navbar = () => {
                     Contact
             </Link>
             </li>
+            <li className='py-6 text-4xl'>
+            <Link onClick={handleClick} to="Resume" smooth={true} duration={500}>
+                    Resume
+            </Link>
+            </li>
         </ul>
 
         {/* Social icons */}
