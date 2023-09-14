@@ -6,6 +6,12 @@ import {Link} from 'react-scroll'
 import resume from '../Navbar/DENZYTECH.docx'
 import ScrollToTop from "react-scroll-to-top";
 import logo from '../../assets/WhatsApp_Image_2023-09-13_at_21.39.36-removebg-preview.png'
+import {FaHome} from 'react-icons/fa'
+import {AiOutlineBook} from 'react-icons/ai'
+import {GiSkills} from 'react-icons/gi'
+import {MdWorkOutline} from 'react-icons/md'
+import {IoIosContact} from 'react-icons/io';
+import {BsFillInfoCircleFill} from 'react-icons/bs'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -19,37 +25,39 @@ const Navbar = () => {
         />
         <div>
             {/* <h1 className='text-5xl ml-2 font-signature' style={{color: '#E31B6D', marginTop:  '1rem'}}>DT</h1> */}
-            <img src={logo} alt="" className='w-[9rem] pt-1 ml-2' />
+            <Link to="home" smooth={true} duration={500}>
+            <img src={logo} alt="" className='w-[9rem] pt-1 ml-1' />
+            </Link>
             
             
         </div>
             <ul className='hidden md:flex'>
-                <li>
+                <li className='hover:text-xl hover:text-pink-400'>
                   <Link to="home" smooth={true} duration={500}>
                     Home
                   </Link>
                 </li>
-                <li>
+                <li className='hover:text-xl hover:text-pink-400'>
                 <Link to="about" smooth={true} duration={500}>
                     About
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-xl hover:text-pink-400'>
                 <Link to="skills" smooth={true} duration={500}>
                     Skills
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-xl hover:text-pink-400'>
                 <Link to="work" smooth={true} duration={500}>
                     Work
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-xl hover:text-pink-400'>
                 <Link to="contact" smooth={true} duration={500}>
                     Contact
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-xl hover:text-pink-400'>
                 <Link to="Resume" smooth={true} duration={500}>
                     Resume
                 </Link>
@@ -63,34 +71,34 @@ const Navbar = () => {
         </div>
         {/* Mobile menu */}
     <ul className= {!nav ? 'hidden': 'absolute top-0 left-o w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-                Home
+            <li className='py-6 text-3xl hover:text-4xl hover:text-pink-400'>
+            <Link onClick={handleClick} to="home" smooth={true} duration={500} className='flex gap-2'>
+                <FaHome/>Home
             </Link>
             </li>
-            <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-                    About
+            <li className='py-6 text-3xl hover:text-4xl hover:text-pink-400'>
+            <Link onClick={handleClick} to="about" smooth={true} duration={500} className='flex gap-2'>
+                  <AiOutlineBook/>  About
             </Link>
             </li>
-            <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-                    Skills
+            <li className='py-6 text-3xl hover:text-4xl hover:text-pink-400'>
+            <Link onClick={handleClick} to="skills" smooth={true} duration={500} className='flex gap-2'>
+                   <GiSkills/> Skills
             </Link>
             </li>
-            <li className='py-6 text-4xl'>  
-            <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-                    Work
+            <li className='py-6 text-3xl hover:text-4xl hover:text-pink-400'>  
+            <Link onClick={handleClick} to="work" smooth={true} duration={500} className='flex gap-2'>
+                   <MdWorkOutline/> Work
             </Link>
             </li>
-            <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-                    Contact
+            <li className='py-6 text-3xl hover:text-4xl hover:text-pink-400'>
+            <Link onClick={handleClick} to="contact" smooth={true} duration={500} className='flex gap-2'>
+                  <IoIosContact/>  Contact
             </Link>
             </li>
-            <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to="Resume" smooth={true} duration={500}>
-                    Resume
+            <li className='py-6 text-3xl hover:text-4xl hover:text-pink-400'>
+            <Link onClick={handleClick} to="Resume" smooth={true} duration={500} className='flex gap-2'>
+                  <BsFillInfoCircleFill/>  Resume
             </Link>
             </li>
         </ul>
