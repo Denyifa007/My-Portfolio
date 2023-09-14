@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
 import resume from '../Navbar/DENZYTECH.docx'
 import ScrollToTop from "react-scroll-to-top";
+import logo from '../../assets/WhatsApp_Image_2023-09-13_at_21.39.36-removebg-preview.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -12,12 +13,13 @@ const Navbar = () => {
 
   return (
   
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[150px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         <ScrollToTop className='scroll' smooth top= '20'
            width='40px'
         />
         <div>
-            <h1 className='text-5xl ml-2 font-signature' style={{color: '#E31B6D', marginTop:  '1rem'}}>DT</h1>
+            {/* <h1 className='text-5xl ml-2 font-signature' style={{color: '#E31B6D', marginTop:  '1rem'}}>DT</h1> */}
+            <img src={logo} alt="" className='w-[9rem] pt-1 ml-2' />
             
             
         </div>
